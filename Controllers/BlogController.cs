@@ -79,20 +79,25 @@ namespace blogEngine.Controllers
         }
 
     [HttpPost]
-    public IActionResult Create(BlogPost model)
+    public IActionResult CreatePost(BlogPost model)
             {
 
-            var blog = new BlogPost { Id =2,
+            var blog = new BlogPost {
                 Title=model.Title,
                 Author=model.Author,
                 Content=model.Content,
                 CreatedAt= DateTime.Now };
             _bloggingContext.Blogs.Add(blog);
             _bloggingContext.SaveChanges();
-            return new CreatedResult(string.Empty,blog);
-                //return View();
+            return RedirectToAction("Index","Blog");
                 
-            }      
+            } 
+        public IActionResult Create()
+        {
+
+            return View();
+                
+        }       
 
 
 
