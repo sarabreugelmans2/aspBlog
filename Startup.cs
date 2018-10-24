@@ -34,7 +34,7 @@ namespace blogEngine
 
             });
     
-            services.AddDbContext<BloggingContext>(opt => opt.UseInMemoryDatabase(Guid.NewGuid().ToString()));
+            services.AddDbContext<BloggingContext>(opt => opt.UseSqlite(@"Data Source=/Users/sara/Documents/Asp/blog/blogEngine/db/blog.db"));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
