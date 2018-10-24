@@ -1,14 +1,15 @@
+@model blogEngine.DataAccess.BlogPost
 <h1> Create</h1>
 
-<form asp-controller="">
-    <label for="title">Title</label>
-    <input type="text" name="title" >
+<form asp-controller="Blog" asp-action="Create">
+    <label asp-for="Title">Title</label>
+    <input asp-for="Title" type="text" name="Title" >
 
-    <label for="author">Author</label>
-    <input type="text" name="author" >
+    <label asp-for="Author">Author</label>
+    <input asp-for="Author" type="text" name="Author" >
 
-    <label for="content">Content</label>
-    <textarea name="content" ></textarea>
+    <label asp-for="Content">Content</label>
+    <textarea asp-for="Content" name="Content" ></textarea>
 
     <input type="submit" value="Submit">
 

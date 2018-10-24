@@ -66,6 +66,8 @@ namespace blogEngine.Controllers
         [HttpGet("Blog/Detail/{blogId}")]
         public IActionResult Detail([FromRoute]int blogId)
         {
+
+            // _personContext.Remove(_personContext.Persons.Find(id));
             return View(new BlogPost()
             {
                 Id = blogId,
@@ -76,13 +78,14 @@ namespace blogEngine.Controllers
             });
         }
 
-    public IActionResult Create()
+    [HttpPost]
+    public IActionResult Create(BlogPost model)
             {
 
-            var blog = new BlogPost { Id =1,
-                Title="shit",
-                Author="bloem",
-                Content="meer shit",
+            var blog = new BlogPost { Id =2,
+                Title=model.Title,
+                Author=model.Author,
+                Content=model.Content,
                 CreatedAt= DateTime.Now };
             _bloggingContext.Blogs.Add(blog);
             _bloggingContext.SaveChanges();
