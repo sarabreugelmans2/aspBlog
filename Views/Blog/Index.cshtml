@@ -1,0 +1,22 @@
+@model blogEngine.DataAccess.BlogPostList
+
+    <table cellspacing="10" style="border-collapse: separate;
+    border-spacing: 15px;">
+     <tr>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Content</th>
+         <th>Created at</th>
+         <th> More</th>
+     </tr> 
+@foreach (var post in Model.Posts){
+    <tr> 
+        <td>@post.Title </td>
+        <td>@post.Author</td>
+        <td>@post.Content</td>
+        <td>@post.CreatedAt</td>
+        <td><a asp-action="Detail" asp-route-id="@post.Id"> Klik klik </a></td>
+    </tr>
+
+}
+    </table>  
