@@ -23,61 +23,53 @@ namespace blogEngine.Controllers
     }
     
 
-        /* 
-        public IActionResult Index(){
-            
-            var listModel= new BlogPostList(){
-            Posts= new System.Collections.Generic.List<BlogPost>()
-            };
-           listModel.Posts.Add(new BlogPost(){
-                Id= 1,
-               Author="Raf",
-               Title= "Eerste titel",
-               Content="content enzo",
-               CreatedAt= DateTime.Now
-           });
-           listModel.Posts.Add(new BlogPost(){
-                Id= 2,
-               Author="Simon",
-               Title= "Tweede titel",
-               Content="pink fluffy unicorns",
-               CreatedAt= DateTime.Now
-           });
-           
-            return View(listModel);
-
-        }
-
-*/
-        /*public IActionResult Detail([FromRoute] int blogId)
-        {
-
-            
-           var blogPost= new BlogPost(){
-                Id=1,
-                Title="Eerste titel",
-                Author="Raf",
-                Content="Eerste Titel",
-                CreatedAt= DateTime.Now
-            };
-            return View(blogPost);
-        }*/
     // home/hello?raf/ceuls
         [HttpGet("Blog/Detail/{blogId}")]
         public IActionResult Detail([FromRoute]int blogId)
         {
-
+            var blog = _bloggingContext.Blogs.Find(blogId);
             // _personContext.Remove(_personContext.Persons.Find(id));
             return View(new BlogPost()
             {
                 Id = blogId,
-                Title="shit",
-                Author="Raf",
-                Content="meer shit",
-                CreatedAt= DateTime.Now
+                Title=blog.Title,
+                Author=blog.Author,
+                Content=blog.Content,
+                CreatedAt= blog.CreatedAt
+            });
+        }
+        
+
+        [HttpGet("Blog/Edit/{blogId}")]
+        public IActionResult Edit([FromRoute]int blogId)
+        {
+
+            var blog = _bloggingContext.Blogs.Find(blogId);
+            // _personContext.Remove(_personContext.Persons.Find(id));
+            return View(new BlogPost()
+            {
+                Id = blogId,
+                Title=blog.Title,
+                Author=blog.Author,
+                Content=blog.Content,
+                CreatedAt= blog.CreatedAt
             });
         }
 
+        [HttpPost]
+        public IActionResult EditPost(BlogPost model)
+        {
+            
+            var blog = _bloggingContext.Blogs.Find(model.Id);
+                blog.Title=model.Title;
+                blog.Author=model.Author;
+                blog.Content=model.Content;
+                blog.CreatedAt= DateTime.Now; 
+            _bloggingContext.Update(blog);
+            _bloggingContext.SaveChanges();
+            return RedirectToAction("Index","Blog");
+        }
+        
     [HttpPost]
     public IActionResult CreatePost(BlogPost model)
             {
@@ -97,10 +89,16 @@ namespace blogEngine.Controllers
 
             return View();
                 
-        }       
-
-
-
+        }    
+        
+        [HttpGet("Blog/Detele/{blogId}")]
+        public IActionResult Delete([FromRoute]int blogId)
+        {
+            _bloggingContext.Remove(_bloggingContext.Blogs.Find(blogId));
+            _bloggingContext.SaveChanges();
+            return RedirectToAction("Index","Blog");
+        }
     }
+    
 }
     

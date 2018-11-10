@@ -1,0 +1,19 @@
+@model blogEngine.DataAccess.BlogPost
+<h1> Edit</h1>
+
+<form asp-controller="Blog" asp-action="EditPost">
+    <label asp-for="Title">Title</label>
+    <input asp-for="Title" type="text" name="Title" value="@Model.Title" >
+
+    <label asp-for="Author">Author</label>
+    <input asp-for="Author" type="text" name="Author" value="@Model.Author" >
+
+    <label asp-for="Content">Content</label>
+    <textarea asp-for="Content" name="Content" value="@Model.Content" ></textarea>
+
+    <input type="hidden" asp-for="Id" name="id" value="@Model.Id">
+    
+    <input type="submit" value="Submit">
+
+
+</form>

@@ -5,19 +5,23 @@
 <table cellspacing="10" style="border-collapse: separate;
     border-spacing: 15px;">
      <tr>
-            <th>Id</th>
+         <th>Id</th>
          <th>Title</th>
          <th>Author</th>
          <th>Content</th>
          <th>Created at</th>
+         <th></th>
+         <th></th>
       
      </tr> 
      <tr>
-           <td> @Model.Id</td>
-    <td> @Model.Title </td>
-    <td> @Model.Author</td>
-    <td> @Model.Content</td>
-    <td> @Model.CreatedAt</td>
+        <td> @Model.Id</td>
+        <td> @Model.Title </td>
+        <td> @Model.Author</td>
+        <td> @Model.Content</td>
+        <td> @Model.CreatedAt</td>
+        <td><a asp-action="Edit"> Edit </a></td>
+        <td><a asp-action="Delete" asp-route-id="@Model.Id"> Delete </a></td>
   
     </tr>
 </table>

@@ -18,7 +18,7 @@ namespace blogEngine.DataAccess
     }
 
         public DbSet<BlogPost> Blogs { get; set; }
-        
+        public DbSet<Comment> Comment { get; set; }
     }
 
     public class BlogPost
@@ -35,6 +35,21 @@ namespace blogEngine.DataAccess
 
     public class BlogPostList{
         public List<BlogPost> Posts { get; set; }
+    }
+
+    public class Comment
+    {
+        //string Author beter een object, wnt als je schrijffout maakt moet je ze anders overal aanpassen
+        public int Id {get; set; }
+        public string Content { get; set; }
+        public string Author { get; set; }
+        public DateTime CreatedAt { get; set; }
+
+        
+    }
+
+    public class CommentList{
+        public List<Comment> Comments { get; set; }
     }
 
 
