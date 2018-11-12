@@ -98,6 +98,22 @@ namespace blogEngine.Controllers
             _bloggingContext.SaveChanges();
             return RedirectToAction("Index","Blog");
         }
+
+         [HttpPost]
+          public IActionResult CreateComment(Comment model)
+            {
+
+            var comment = new Comment {
+                Author=model.Author,
+                Content=model.Content,
+                Blog_id=model.Id,
+                CreatedAt= DateTime.Now
+                 };
+            _bloggingContext.Comment.Add(comment);
+            _bloggingContext.SaveChanges();
+            return RedirectToAction("Index","Blog");
+                
+            } 
     }
     
 }

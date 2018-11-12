@@ -44,6 +44,7 @@ namespace blogEngine.DataAccess
         public string Content { get; set; }
         public string Author { get; set; }
         public DateTime CreatedAt { get; set; }
+        public int Blog_id {get; set; }
 
         
     }
@@ -52,5 +53,10 @@ namespace blogEngine.DataAccess
         public List<Comment> Comments { get; set; }
     }
 
+    // public class DetailViewModel
+    // {
+    //     public IEnumerable<blogEngine.DataAccess.BlogPost> Posts{get;set;}
+    //     public IEnumerable<blogEngine.DataAccess.CommentList> Comments{get;set;}
+    // }
 
 }

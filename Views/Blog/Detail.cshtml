@@ -1,6 +1,7 @@
 @model blogEngine.DataAccess.BlogPost
 
 
+<div>
 
 <table cellspacing="10" style="border-collapse: separate;
     border-spacing: 15px;">
@@ -25,3 +26,27 @@
   
     </tr>
 </table>
+
+</div>
+<!-- COMMENTS FORM -->
+<div>
+    <h1>Comments</h1>
+    
+    <form asp-controller="Blog" asp-action="CreateComment">
+
+    <label asp-for="Author">Author</label>
+    <input asp-for="Author" type="text" name="Author" value="" >
+
+    <label asp-for="Content">Content</label>
+    <textarea asp-for="Content" name="Content" value="NULL"> </textarea>
+    
+    <input type="hidden" asp-for="Id" name="id" value="@Model.Id">
+
+    <input type="submit" value="Submit">
+
+    </form>
+</div>
+<!-- COMMENTS LIST -->
+<div>
+
+</div>
