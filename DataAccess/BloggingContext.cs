@@ -53,10 +53,11 @@ namespace blogEngine.DataAccess
         public List<Comment> Comments { get; set; }
     }
 
-    // public class DetailViewModel
-    // {
-    //     public IEnumerable<blogEngine.DataAccess.BlogPost> Posts{get;set;}
-    //     public IEnumerable<blogEngine.DataAccess.CommentList> Comments{get;set;}
-    // }
+    public class BlogCommentViewModel
+    {
+        public BlogPost Blog { get; set; }
+
+        public CommentList Comments { get; set; }
+    }
 
 }

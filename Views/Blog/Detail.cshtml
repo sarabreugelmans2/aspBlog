@@ -1,4 +1,4 @@
-@model blogEngine.DataAccess.BlogPost
+@model blogEngine.DataAccess.BlogCommentViewModel
 
 
 <div>
@@ -16,13 +16,13 @@
       
      </tr> 
      <tr>
-        <td> @Model.Id</td>
-        <td> @Model.Title </td>
-        <td> @Model.Author</td>
-        <td> @Model.Content</td>
-        <td> @Model.CreatedAt</td>
-        <td><a asp-action="Edit"> Edit </a></td>
-        <td><a asp-action="Delete" asp-route-id="@Model.Id"> Delete </a></td>
+        <td> @Model.Blog.Id</td>
+        <td> @Model.Blog.Title </td>
+        <td> @Model.Blog.Author</td>
+        <td> @Model.Blog.Content</td>
+        <td> @Model.Blog.CreatedAt</td>
+        <td><a asp-action="Edit" asp-route-id="@Model.Blog.Id"> Edit </a></td>
+        <td><a asp-action="Delete" asp-route-id="@Model.Blog.Id"> Delete </a></td>
   
     </tr>
 </table>
@@ -34,13 +34,13 @@
     
     <form asp-controller="Blog" asp-action="CreateComment">
 
-    <label asp-for="Author">Author</label>
-    <input asp-for="Author" type="text" name="Author" value="" >
+    <label >Author</label>
+    <input  type="text" name="Author" >
 
-    <label asp-for="Content">Content</label>
-    <textarea asp-for="Content" name="Content" value="NULL"> </textarea>
+    <label >Content</label>
+    <textarea  name="Content"> </textarea>
     
-    <input type="hidden" asp-for="Id" name="id" value="@Model.Id">
+    <input type="hidden"  name="id" value="@Model.Blog.Id">
 
     <input type="submit" value="Submit">
 
@@ -48,5 +48,20 @@
 </div>
 <!-- COMMENTS LIST -->
 <div>
+     <table cellspacing="10" style="border-collapse: separate;
+    border-spacing: 15px;">
+     <tr>
+         <th>Author</th>
+         <th>Content</th>
+         <th>Created at</th>
+     </tr> 
+@foreach (var comment in @Model.Comments.Comments){
+    <tr> 
+        <td>@comment.Author</td>
+        <td>@comment.Content</td>
+        <td>@comment.CreatedAt</td>
 
+    </tr>
+}
+    </table>  
 </div>

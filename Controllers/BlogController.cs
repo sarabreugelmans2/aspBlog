@@ -22,25 +22,7 @@ namespace blogEngine.Controllers
       return View(listModel);
     }
     
-
-    // home/hello?raf/ceuls
-        [HttpGet("Blog/Detail/{blogId}")]
-        public IActionResult Detail([FromRoute]int blogId)
-        {
-            var blog = _bloggingContext.Blogs.Find(blogId);
-            // _personContext.Remove(_personContext.Persons.Find(id));
-            return View(new BlogPost()
-            {
-                Id = blogId,
-                Title=blog.Title,
-                Author=blog.Author,
-                Content=blog.Content,
-                CreatedAt= blog.CreatedAt
-            });
-        }
-        
-
-        [HttpGet("Blog/Edit/{blogId}")]
+    [HttpGet("Blog/Edit/{blogId}")]
         public IActionResult Edit([FromRoute]int blogId)
         {
 
@@ -55,6 +37,41 @@ namespace blogEngine.Controllers
                 CreatedAt= blog.CreatedAt
             });
         }
+    
+
+    // home/hello?raf/ceuls
+        [HttpGet("Blog/Detail/{blogId}")]
+        public IActionResult Detail([FromRoute]int blogId)
+        {
+            BlogCommentViewModel BCVM = new BlogCommentViewModel();
+            BCVM.Blog = GetBlogPost(blogId);
+            BCVM.Comments = GetCommentModel(blogId);
+            return View(BCVM);
+        }
+
+       
+     
+       public BlogPost GetBlogPost( int blogId)
+        {
+            var blog = _bloggingContext.Blogs.Find(blogId);
+           BlogPost bModel = new BlogPost() {
+                Id = blogId,
+                Title=blog.Title,
+                Author=blog.Author,
+                Content=blog.Content,
+                CreatedAt= blog.CreatedAt
+            };
+            return bModel;
+        }
+         public CommentList GetCommentModel(int blogId)
+        {
+            var comments = _bloggingContext.Comment.ToList();
+            var listModel= new CommentList();
+            listModel.Comments=comments;
+            return listModel;
+        }
+       
+    
 
         [HttpPost]
         public IActionResult EditPost(BlogPost model)
