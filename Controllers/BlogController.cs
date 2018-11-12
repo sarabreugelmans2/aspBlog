@@ -65,7 +65,7 @@ namespace blogEngine.Controllers
         }
          public CommentList GetCommentModel(int blogId)
         {
-            var comments = _bloggingContext.Comment.ToList();
+            var comments = _bloggingContext.Comment.Where(_bloggingContext => _bloggingContext.Blog_id == blogId).ToList();
             var listModel= new CommentList();
             listModel.Comments=comments;
             return listModel;
