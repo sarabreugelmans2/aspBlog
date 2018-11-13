@@ -29,7 +29,7 @@ namespace blogEngine.DataAccess
         public int Id {get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public string Author_id { get; set; }
+        public int Author_id { get; set; }
         public DateTime CreatedAt { get; set; }
 
         
@@ -68,6 +68,15 @@ namespace blogEngine.DataAccess
         public BlogPost Blog { get; set; }
 
         public CommentList Comments { get; set; }
+
+        public Author Author { get; set; }
+    }
+
+    public class BlogAuthorViewModel
+    {
+        public BlogPost Blog { get; set; }
+
+        public AuthorList AuthorList { get; set; }
     }
 
 }

@@ -18,7 +18,7 @@
      <tr>
         <td> @Model.Blog.Id</td>
         <td> @Model.Blog.Title </td>
-        <td> @Model.Blog.Author_id</td> 
+        <td> @Model.Author.Name</td> 
         <td> @Model.Blog.Content</td>
         <td> @Model.Blog.CreatedAt</td>
         <td><a asp-action="Edit" asp-route-id="@Model.Blog.Id"> Edit </a></td>
@@ -35,7 +35,7 @@
     <form asp-controller="Blog" asp-action="CreateComment">
 
     <label >Author</label>
-    <input  type="text" name="Author" >
+    <input  type="text" name="Author_id" >
 
     <label >Content</label>
     <textarea  name="Content"> </textarea>

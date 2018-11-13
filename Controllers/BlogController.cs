@@ -25,21 +25,25 @@ namespace blogEngine.Controllers
     [HttpGet("Blog/Edit/{blogId}")]
         public IActionResult Edit([FromRoute]int blogId)
         {
-
             var blog = _bloggingContext.Blogs.Find(blogId);
+            var author = _bloggingContext.Author.ToList();
 
-            var author = _bloggingContext.Author.Find(blog.Author_id);
-            //Author authorResult = new Author();
-            //authorResult = author;
-            // _personContext.Remove(_personContext.Persons.Find(id));
-            return View(new BlogPost()
+            BlogPost blogPost = new BlogPost()
             {
                 Id = blogId,
                 Title=blog.Title,
-                Author_id=blog.Author_id,
                 Content=blog.Content,
                 CreatedAt= blog.CreatedAt
-            });
+            };
+
+            var authorList = new AuthorList();
+            authorList.Authors = author;
+
+            BlogAuthorViewModel BAVM = new BlogAuthorViewModel();
+            BAVM.Blog=blogPost;
+            BAVM.AuthorList=authorList;
+            
+            return View(BAVM);
         }
     
 
@@ -48,8 +52,10 @@ namespace blogEngine.Controllers
         public IActionResult Detail([FromRoute]int blogId)
         {
             BlogCommentViewModel BCVM = new BlogCommentViewModel();
-            BCVM.Blog = GetBlogPost(blogId);
+            BCVM.Blog= GetBlogPost(blogId);
             BCVM.Comments = GetCommentModel(blogId);
+            int AuthorId = BCVM.Blog.Author_id;
+            BCVM.Author = GetAuthorModel(AuthorId);
             return View(BCVM);
         }
 
@@ -74,6 +80,15 @@ namespace blogEngine.Controllers
             listModel.Comments=comments;
             return listModel;
         }
+        public Author GetAuthorModel( int AuthorId)
+        {
+            var Author = _bloggingContext.Author.Find(AuthorId);
+            Author aModel = new Author() {
+                Id = AuthorId,
+                Name=Author.Name
+            };
+            return aModel;
+        }
        
     
 
@@ -83,7 +98,6 @@ namespace blogEngine.Controllers
             
             var blog = _bloggingContext.Blogs.Find(model.Id);
                 blog.Title=model.Title;
-                blog.Author_id=model.Author_id;
                 blog.Content=model.Content;
                 blog.CreatedAt= DateTime.Now; 
             _bloggingContext.Update(blog);
@@ -94,7 +108,6 @@ namespace blogEngine.Controllers
     [HttpPost]
     public IActionResult CreatePost(BlogPost model)
             {
-
             var blog = new BlogPost {
                 Title=model.Title,
                 Author_id=model.Author_id,
