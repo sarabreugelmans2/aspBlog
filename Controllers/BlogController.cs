@@ -26,24 +26,14 @@ namespace blogEngine.Controllers
         public IActionResult Edit([FromRoute]int blogId)
         {
             var blog = _bloggingContext.Blogs.Find(blogId);
-            var author = _bloggingContext.Author.ToList();
-
-            BlogPost blogPost = new BlogPost()
+            // _personContext.Remove(_personContext.Persons.Find(id));
+            return View(new BlogPost()
             {
                 Id = blogId,
                 Title=blog.Title,
                 Content=blog.Content,
                 CreatedAt= blog.CreatedAt
-            };
-
-            var authorList = new AuthorList();
-            authorList.Authors = author;
-
-            BlogAuthorViewModel BAVM = new BlogAuthorViewModel();
-            BAVM.Blog=blogPost;
-            BAVM.AuthorList=authorList;
-            
-            return View(BAVM);
+            });
         }
     
 
@@ -56,6 +46,10 @@ namespace blogEngine.Controllers
             BCVM.Comments = GetCommentModel(blogId);
             int AuthorId = BCVM.Blog.Author_id;
             BCVM.Author = GetAuthorModel(AuthorId);
+            var author = _bloggingContext.Author.ToList();
+            AuthorList authorList = new AuthorList();
+            authorList.Authors = author;
+            BCVM.AuthorList = authorList;
             return View(BCVM);
         }
 
@@ -120,8 +114,13 @@ namespace blogEngine.Controllers
             } 
         public IActionResult Create()
         {
+            var author = _bloggingContext.Author.ToList();
 
-            return View();
+
+            AuthorList authorList = new AuthorList();
+            authorList.Authors = author;
+            
+            return View(authorList);
                 
         }    
         
@@ -145,7 +144,7 @@ namespace blogEngine.Controllers
             };
             _bloggingContext.Comment.Add(comment);
             _bloggingContext.SaveChanges();
-            return RedirectToAction("Index","Blog");
+            return RedirectToAction("Detail","Blog",new { id = model.Id });
                 
             } 
     }

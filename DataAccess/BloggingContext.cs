@@ -70,11 +70,6 @@ namespace blogEngine.DataAccess
         public CommentList Comments { get; set; }
 
         public Author Author { get; set; }
-    }
-
-    public class BlogAuthorViewModel
-    {
-        public BlogPost Blog { get; set; }
 
         public AuthorList AuthorList { get; set; }
     }

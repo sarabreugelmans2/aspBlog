@@ -1,4 +1,4 @@
-@model blogEngine.DataAccess.BlogAuthorViewModel
+@model blogEngine.DataAccess.AuthorList
 <h1> Create</h1>
 
 <form asp-controller="Blog" asp-action="CreatePost">
@@ -7,10 +7,11 @@
 
     <label >Author</label>
     <select name="Author_id">
-        @foreach (var author in @Model.AuthorList.Authors)
-        {
-            <option value="@author.Id">@author.Name</option>
-        }
+        
+@foreach (var author in @Model.Authors)
+{
+    <option value="@author.Id">@author.Name</option>
+}
     </select>
 
     <label>Content</label>

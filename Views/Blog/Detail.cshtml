@@ -34,8 +34,13 @@
     
     <form asp-controller="Blog" asp-action="CreateComment">
 
-    <label >Author</label>
-    <input  type="text" name="Author_id" >
+    <select name="Author_id">
+        
+        @foreach (var author in @Model.AuthorList.Authors)
+        {
+            <option value="@author.Id">@author.Name</option>
+        }
+    </select>
 
     <label >Content</label>
     <textarea  name="Content"> </textarea>
