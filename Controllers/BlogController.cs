@@ -29,14 +29,14 @@ namespace blogEngine.Controllers
             var blog = _bloggingContext.Blogs.Find(blogId);
 
             var author = _bloggingContext.Author.Find(blog.Author_id);
-            Author authorResult = new Author();
-            authorResult = author;
+            //Author authorResult = new Author();
+            //authorResult = author;
             // _personContext.Remove(_personContext.Persons.Find(id));
             return View(new BlogPost()
             {
                 Id = blogId,
                 Title=blog.Title,
-                Author=authorResult,
+                Author_id=blog.Author_id,
                 Content=blog.Content,
                 CreatedAt= blog.CreatedAt
             });
@@ -61,7 +61,7 @@ namespace blogEngine.Controllers
            BlogPost bModel = new BlogPost() {
                 Id = blogId,
                 Title=blog.Title,
-                Author=blog.Author,
+                Author_id=blog.Author_id,
                 Content=blog.Content,
                 CreatedAt= blog.CreatedAt
             };
@@ -83,7 +83,7 @@ namespace blogEngine.Controllers
             
             var blog = _bloggingContext.Blogs.Find(model.Id);
                 blog.Title=model.Title;
-                blog.Author=model.Author;
+                blog.Author_id=model.Author_id;
                 blog.Content=model.Content;
                 blog.CreatedAt= DateTime.Now; 
             _bloggingContext.Update(blog);
@@ -97,7 +97,7 @@ namespace blogEngine.Controllers
 
             var blog = new BlogPost {
                 Title=model.Title,
-                Author=model.Author,
+                Author_id=model.Author_id,
                 Content=model.Content,
                 CreatedAt= DateTime.Now };
             _bloggingContext.Blogs.Add(blog);
