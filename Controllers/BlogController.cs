@@ -27,12 +27,16 @@ namespace blogEngine.Controllers
         {
 
             var blog = _bloggingContext.Blogs.Find(blogId);
+
+            var author = _bloggingContext.Author.Find(blog.Author_id);
+            Author authorResult = new Author();
+            authorResult = author;
             // _personContext.Remove(_personContext.Persons.Find(id));
             return View(new BlogPost()
             {
                 Id = blogId,
                 Title=blog.Title,
-                Author=blog.Author,
+                Author=authorResult,
                 Content=blog.Content,
                 CreatedAt= blog.CreatedAt
             });
@@ -121,11 +125,11 @@ namespace blogEngine.Controllers
             {
 
             var comment = new Comment {
-                Author=model.Author,
+                Author_id=model.Author_id,
                 Content=model.Content,
                 Blog_id=model.Id,
                 CreatedAt= DateTime.Now
-                 };
+            };
             _bloggingContext.Comment.Add(comment);
             _bloggingContext.SaveChanges();
             return RedirectToAction("Index","Blog");

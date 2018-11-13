@@ -18,7 +18,7 @@
      <tr>
         <td> @Model.Blog.Id</td>
         <td> @Model.Blog.Title </td>
-        <td> @Model.Blog.Author</td>
+        <td> @Model.Blog.Author_id</td> 
         <td> @Model.Blog.Content</td>
         <td> @Model.Blog.CreatedAt</td>
         <td><a asp-action="Edit" asp-route-id="@Model.Blog.Id"> Edit </a></td>
@@ -50,14 +50,14 @@
 <div>
      <table cellspacing="10" style="border-collapse: separate;
     border-spacing: 15px;">
-     <tr>
+     <tr>  
          <th>Author</th>
          <th>Content</th>
          <th>Created at</th>
      </tr> 
 @foreach (var comment in @Model.Comments.Comments){
     <tr> 
-        <td>@comment.Author</td>
+        <td>@comment.Author_id</td>
         <td>@comment.Content</td>
         <td>@comment.CreatedAt</td>
 

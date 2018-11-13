@@ -4,7 +4,6 @@
     border-spacing: 15px;">
      <tr>
          <th>Title</th>
-         <th>Author</th>
          <th>Content</th>
          <th>Created at</th>
          <th> More</th>
@@ -12,7 +11,6 @@
 @foreach (var post in Model.Posts){
     <tr> 
         <td>@post.Title </td>
-        <td>@post.Author</td>
         <td>@post.Content</td>
         <td>@post.CreatedAt</td>
         <td><a asp-action="Detail" asp-route-id="@post.Id"> Klik klik </a></td>
