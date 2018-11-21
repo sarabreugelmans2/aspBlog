@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using blogEngine.DataAccess;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace blogEngine.Controllers
 {
@@ -46,6 +47,7 @@ namespace blogEngine.Controllers
             BCVM.Comments = GetCommentModel(blogId);
             int AuthorId = BCVM.Blog.Author_id;
             BCVM.Author = GetAuthorModel(AuthorId);
+            
             var author = _bloggingContext.Author.ToList();
             AuthorList authorList = new AuthorList();
             authorList.Authors = author;
@@ -69,7 +71,7 @@ namespace blogEngine.Controllers
         }
          public CommentList GetCommentModel(int blogId)
         {
-            var comments = _bloggingContext.Comment.Where(_bloggingContext => _bloggingContext.Blog_id == blogId).ToList();
+            var comments = _bloggingContext.Comment.Include(_bloggingContext => _bloggingContext.Author).Where(_bloggingContext => _bloggingContext.Blog_id == blogId).ToList();
             var listModel= new CommentList();
             listModel.Comments=comments;
             return listModel;

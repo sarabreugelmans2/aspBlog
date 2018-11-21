@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using blogEngine.Models;
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace blogEngine.DataAccess
 {
@@ -43,7 +43,10 @@ namespace blogEngine.DataAccess
     {
         //string Author beter een object, wnt als je schrijffout maakt moet je ze anders overal aanpassen
         public int Id {get; set; }
-        public string Content { get; set; }       
+        public string Content { get; set; } 
+
+        [ForeignKey("Author_id")]
+        public virtual Author Author { get; set; } 
         public int Author_id { get; set; }
         public DateTime CreatedAt { get; set; }
         public int Blog_id { get; set; }   

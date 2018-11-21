@@ -62,7 +62,7 @@
      </tr> 
 @foreach (var comment in @Model.Comments.Comments){
     <tr> 
-        <td>@comment.Author_id</td>
+        <td>@comment.Author.Name</td>
         <td>@comment.Content</td>
         <td>@comment.CreatedAt</td>
 
