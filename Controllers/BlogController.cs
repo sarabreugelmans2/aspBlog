@@ -14,7 +14,8 @@ namespace blogEngine.Controllers
         {
         _bloggingContext = bloggingContext;
         }
-
+   
+    [UrlFilter]
     public IActionResult Index(){
     
       var blogs = _bloggingContext.Blogs.ToList();
@@ -149,6 +150,8 @@ namespace blogEngine.Controllers
             return RedirectToAction("Detail","Blog",new { id = model.Id });
                 
             } 
+
+            
     }
     
 }
