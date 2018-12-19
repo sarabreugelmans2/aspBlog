@@ -16,16 +16,38 @@ namespace blogEngine.DataAccess
     {
 
     }
-
+        
         public DbSet<BlogPost> Blogs { get; set; }
         public DbSet<Comment> Comment { get; set; }
-
         public DbSet<Author> Author { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Author>().HasData(
+                new Author
+                {
+                    Id = 1,
+                    Name = "William"
+                },
+                 new Author
+                {
+                    Id = 2,
+                    Name = "Sara"
+                },
+                 new Author
+                {
+                    Id = 3,
+                    Name = "Kobe"
+                }
+            );
+        }
     }
 
+[Table("Blogs")]
     public class BlogPost
     {
         //string Author beter een object, wnt als je schrijffout maakt moet je ze anders overal aanpassen
+
         public int Id {get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
@@ -39,6 +61,7 @@ namespace blogEngine.DataAccess
         public List<BlogPost> Posts { get; set; }
     }
 
+[Table("Comment")]
     public class Comment
     {
         //string Author beter een object, wnt als je schrijffout maakt moet je ze anders overal aanpassen
@@ -52,6 +75,7 @@ namespace blogEngine.DataAccess
         public int Blog_id { get; set; }   
     }
 
+[Table("Author")]
     public class Author{
         public int Id { get; set; }
         public string Name { get; set; }
