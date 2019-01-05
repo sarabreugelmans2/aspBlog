@@ -277,3 +277,9 @@
 2019-01-05 13:46:03.0437 Info Logger has been closed down.
 2019-01-05 13:46:03.0447 Info Shutting down logging...
 2019-01-05 13:46:03.0461 Info Logger has been shut down.
+2019-01-05 13:52:42.4296 Info Message Template Auto Format enabled
+2019-01-05 13:52:42.4296 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 13:52:42.4821 Info Adding target File Target[allfile]
+2019-01-05 13:52:42.5039 Info Adding target File Target[ownFile-web]
+2019-01-05 13:52:42.5039 Info Configured from an XML element in D:\Documenten\Hoge School\asp.kaka\blogEngine\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 13:52:42.5231 Info Found 45 configuration items
