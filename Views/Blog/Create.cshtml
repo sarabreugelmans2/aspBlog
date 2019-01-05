@@ -1,14 +1,14 @@
-@model blogEngine.DataAccess.AuthorList
+@model blogEngine.DataAccess.BlogCommentViewModel
 <h1> Create</h1>
 
 <form asp-controller="Blog" asp-action="CreatePost">
     <label >Title</label>
-    <input type="text" name="Title" >
+    <input asp-for="@Model.Blog.Title" type="text" name="Title" >
 
     <label >Author</label>
     <select name="Author_id">
         
-@foreach (var author in @Model.Authors)
+@foreach (var author in @Model.AuthorList.Authors)
 {
     <option value="@author.Id">@author.Name</option>
 }

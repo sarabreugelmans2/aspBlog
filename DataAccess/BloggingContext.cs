@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using blogEngine.Models;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace blogEngine.DataAccess
 {
@@ -49,6 +50,8 @@ namespace blogEngine.DataAccess
         //string Author beter een object, wnt als je schrijffout maakt moet je ze anders overal aanpassen
 
         public int Id {get; set; }
+        [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Title { get; set; }
         public string Content { get; set; }
         public int Author_id { get; set; }
@@ -100,5 +103,8 @@ namespace blogEngine.DataAccess
 
         public AuthorList AuthorList { get; set; }
     }
+
+
+    
 
 }

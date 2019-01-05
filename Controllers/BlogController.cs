@@ -118,12 +118,16 @@ namespace blogEngine.Controllers
         public IActionResult Create()
         {
             var author = _bloggingContext.Author.ToList();
-
-
             AuthorList authorList = new AuthorList();
             authorList.Authors = author;
+
+            BlogPost blogPost = new BlogPost();
             
-            return View(authorList);
+            BlogCommentViewModel blogAuthorView = new BlogCommentViewModel();
+            blogAuthorView.AuthorList = authorList;
+            blogAuthorView.Blog = blogPost;
+            
+            return View(blogAuthorView);
                 
         }    
         
