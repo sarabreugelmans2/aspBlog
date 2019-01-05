@@ -21,8 +21,8 @@
         <td> @Model.Author.Name</td> 
         <td> @Model.Blog.Content</td>
         <td> @Model.Blog.CreatedAt</td>
-        <td><a asp-action="Edit" asp-route-id="@Model.Blog.Id"> Edit </a></td>
-        <td><a asp-action="Delete" asp-route-id="@Model.Blog.Id"> Delete </a></td>
+        <td><a asp-action="Edit"> Edit </a></td>
+        <td><button asp-action="Delete" asp-route-id="@Model.Blog.Id"> Delete </button></td>
   
     </tr>
 </table>

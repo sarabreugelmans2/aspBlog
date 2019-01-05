@@ -53,6 +53,8 @@ namespace blogEngine.DataAccess
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string Title { get; set; }
+        [StringLength(600, MinimumLength = 10)]
+        [Required]
         public string Content { get; set; }
         public int Author_id { get; set; }
         public DateTime CreatedAt { get; set; }

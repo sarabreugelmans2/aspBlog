@@ -1,375 +1,203 @@
-2018-11-28 17:32:29.9789 Info Message Template Auto Format enabled
-2018-11-28 17:32:29.9949 Info Loading assembly: NLog.Web.AspNetCore
-2018-11-28 17:32:30.0647 Info Adding target File Target[allfile]
-2018-11-28 17:32:30.0668 Info Adding target File Target[ownFile-web]
-2018-11-28 17:32:30.0749 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-11-28 17:32:30.0925 Info Found 45 configuration items
-2018-11-28 17:32:45.2178 Info Logger closing down...
-2018-11-28 17:32:45.2196 Info Closing old configuration.
-2018-11-28 17:32:45.2280 Info Logger has been closed down.
-2018-11-28 17:32:45.2293 Info Shutting down logging...
-2018-11-28 17:32:45.2311 Info Logger has been shut down.
-2018-12-19 15:40:15.5999 Info Message Template Auto Format enabled
-2018-12-19 15:40:15.6232 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:40:15.6829 Info Adding target File Target[allfile]
-2018-12-19 15:40:15.6884 Info Adding target File Target[ownFile-web]
-2018-12-19 15:40:15.6977 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 15:40:15.7156 Info Found 45 configuration items
-2018-12-19 15:41:25.0522 Info Message Template Auto Format enabled
-2018-12-19 15:41:25.0640 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:41:25.1171 Info Adding target File Target[allfile]
-2018-12-19 15:41:25.1189 Info Adding target File Target[ownFile-web]
-2018-12-19 15:41:25.1256 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 15:41:25.1411 Info Found 45 configuration items
-2018-12-19 15:41:25.2260 Info Configuration initialized.
-2018-12-19 15:41:25.2423 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 15:41:26.5636 Info Shutting down logging...
-2018-12-19 15:41:26.5826 Info Logger has been shut down.
-2018-12-19 15:44:01.6738 Info Message Template Auto Format enabled
-2018-12-19 15:44:01.6870 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:44:01.7443 Info Adding target File Target[allfile]
-2018-12-19 15:44:01.7460 Info Adding target File Target[ownFile-web]
-2018-12-19 15:44:01.7528 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 15:44:01.7704 Info Found 45 configuration items
-2018-12-19 15:44:01.8673 Info Configuration initialized.
-2018-12-19 15:44:01.8872 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 15:44:03.3079 Info Shutting down logging...
-2018-12-19 15:44:03.3280 Info Logger has been shut down.
-2018-12-19 15:44:40.1680 Info Message Template Auto Format enabled
-2018-12-19 15:44:40.1799 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:44:40.2315 Info Adding target File Target[allfile]
-2018-12-19 15:44:40.2332 Info Adding target File Target[ownFile-web]
-2018-12-19 15:44:40.2400 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 15:44:40.2556 Info Found 45 configuration items
-2018-12-19 15:44:40.3510 Info Configuration initialized.
-2018-12-19 15:44:40.3672 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 15:44:41.6685 Info Shutting down logging...
-2018-12-19 15:44:41.6827 Info Logger has been shut down.
-2018-12-19 15:45:50.7508 Info Logger closing down...
-2018-12-19 15:45:50.7532 Info Closing old configuration.
-2018-12-19 15:45:50.7616 Info Logger has been closed down.
-2018-12-19 15:45:50.7629 Info Shutting down logging...
-2018-12-19 15:45:50.7643 Info Logger has been shut down.
-2018-12-19 15:45:56.3029 Info Message Template Auto Format enabled
-2018-12-19 15:45:56.3176 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:45:56.3704 Info Adding target File Target[allfile]
-2018-12-19 15:45:56.3730 Info Adding target File Target[ownFile-web]
-2018-12-19 15:45:56.3813 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 15:45:56.4001 Info Found 45 configuration items
-2018-12-19 15:59:24.4057 Info Logger closing down...
-2018-12-19 15:59:24.4085 Info Closing old configuration.
-2018-12-19 15:59:24.4183 Info Logger has been closed down.
-2018-12-19 15:59:24.4199 Info Shutting down logging...
-2018-12-19 15:59:24.4234 Info Logger has been shut down.
-2018-12-19 15:59:40.8729 Info Message Template Auto Format enabled
-2018-12-19 15:59:40.8878 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:59:40.9549 Info Adding target File Target[allfile]
-2018-12-19 15:59:40.9569 Info Adding target File Target[ownFile-web]
-2018-12-19 15:59:40.9664 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 15:59:40.9902 Info Found 45 configuration items
-2018-12-19 15:59:41.1063 Info Configuration initialized.
-2018-12-19 15:59:41.1327 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 15:59:42.3457 Info Shutting down logging...
-2018-12-19 15:59:42.3635 Info Logger has been shut down.
-2018-12-19 15:59:55.0595 Info Message Template Auto Format enabled
-2018-12-19 15:59:55.0714 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 15:59:55.1288 Info Adding target File Target[allfile]
-2018-12-19 15:59:55.1305 Info Adding target File Target[ownFile-web]
-2018-12-19 15:59:55.1382 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 15:59:55.1533 Info Found 45 configuration items
-2018-12-19 15:59:55.2481 Info Configuration initialized.
-2018-12-19 15:59:55.2629 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 15:59:56.2749 Info Shutting down logging...
-2018-12-19 15:59:56.2915 Info Logger has been shut down.
-2018-12-19 16:00:51.5080 Info Message Template Auto Format enabled
-2018-12-19 16:00:51.5228 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:00:51.5701 Info Adding target File Target[allfile]
-2018-12-19 16:00:51.5723 Info Adding target File Target[ownFile-web]
-2018-12-19 16:00:51.5798 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 16:00:51.5962 Info Found 45 configuration items
-2018-12-19 16:02:09.0483 Info Logger closing down...
-2018-12-19 16:02:09.0519 Info Closing old configuration.
-2018-12-19 16:02:09.0615 Info Logger has been closed down.
-2018-12-19 16:02:09.0631 Info Shutting down logging...
-2018-12-19 16:02:09.0651 Info Logger has been shut down.
-2018-12-19 16:02:24.0883 Info Message Template Auto Format enabled
-2018-12-19 16:02:24.1009 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:02:24.1685 Info Adding target File Target[allfile]
-2018-12-19 16:02:24.1701 Info Adding target File Target[ownFile-web]
-2018-12-19 16:02:24.1775 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:02:24.1940 Info Found 45 configuration items
-2018-12-19 16:02:24.2884 Info Configuration initialized.
-2018-12-19 16:02:24.3072 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:02:25.4325 Info Shutting down logging...
-2018-12-19 16:02:25.4451 Info Logger has been shut down.
-2018-12-19 16:11:00.4822 Info Message Template Auto Format enabled
-2018-12-19 16:11:00.4941 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:11:00.5416 Info Adding target File Target[allfile]
-2018-12-19 16:11:00.5432 Info Adding target File Target[ownFile-web]
-2018-12-19 16:11:00.5498 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:11:00.5651 Info Found 45 configuration items
-2018-12-19 16:11:00.6540 Info Configuration initialized.
-2018-12-19 16:11:00.6687 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:11:01.8036 Info Shutting down logging...
-2018-12-19 16:11:01.8217 Info Logger has been shut down.
-2018-12-19 16:12:50.4724 Info Message Template Auto Format enabled
-2018-12-19 16:12:50.4865 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:12:50.5830 Info Adding target File Target[allfile]
-2018-12-19 16:12:50.5848 Info Adding target File Target[ownFile-web]
-2018-12-19 16:12:50.5928 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:12:50.6139 Info Found 45 configuration items
-2018-12-19 16:12:50.7246 Info Configuration initialized.
-2018-12-19 16:12:50.7424 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:12:52.1139 Info Shutting down logging...
-2018-12-19 16:12:52.1331 Info Logger has been shut down.
-2018-12-19 16:13:57.4702 Info Message Template Auto Format enabled
-2018-12-19 16:13:57.4873 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:13:57.5353 Info Adding target File Target[allfile]
-2018-12-19 16:13:57.5399 Info Adding target File Target[ownFile-web]
-2018-12-19 16:13:57.5507 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 16:13:57.5722 Info Found 45 configuration items
-2018-12-19 16:14:01.4750 Info Logger closing down...
-2018-12-19 16:14:01.4772 Info Closing old configuration.
-2018-12-19 16:14:01.4865 Info Logger has been closed down.
-2018-12-19 16:14:01.4880 Info Shutting down logging...
-2018-12-19 16:14:01.4902 Info Logger has been shut down.
-2018-12-19 16:14:15.8377 Info Message Template Auto Format enabled
-2018-12-19 16:14:15.8498 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:14:15.9060 Info Adding target File Target[allfile]
-2018-12-19 16:14:15.9076 Info Adding target File Target[ownFile-web]
-2018-12-19 16:14:15.9148 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:14:15.9326 Info Found 45 configuration items
-2018-12-19 16:14:16.0267 Info Configuration initialized.
-2018-12-19 16:14:16.0430 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:14:17.1718 Info Shutting down logging...
-2018-12-19 16:14:17.1860 Info Logger has been shut down.
-2018-12-19 16:14:59.4607 Info Message Template Auto Format enabled
-2018-12-19 16:14:59.4755 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:14:59.5230 Info Adding target File Target[allfile]
-2018-12-19 16:14:59.5251 Info Adding target File Target[ownFile-web]
-2018-12-19 16:14:59.5328 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 16:14:59.5497 Info Found 45 configuration items
-2018-12-19 16:16:05.4204 Info Message Template Auto Format enabled
-2018-12-19 16:16:05.4327 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:16:05.4974 Info Adding target File Target[allfile]
-2018-12-19 16:16:05.4992 Info Adding target File Target[ownFile-web]
-2018-12-19 16:16:05.5088 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:16:05.5262 Info Found 45 configuration items
-2018-12-19 16:16:05.6242 Info Configuration initialized.
-2018-12-19 16:16:05.6410 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:16:06.9450 Info Shutting down logging...
-2018-12-19 16:16:06.9595 Info Logger has been shut down.
-2018-12-19 16:20:43.1930 Info Logger closing down...
-2018-12-19 16:20:43.1962 Info Closing old configuration.
-2018-12-19 16:20:43.2086 Info Logger has been closed down.
-2018-12-19 16:20:43.2101 Info Shutting down logging...
-2018-12-19 16:20:43.2121 Info Logger has been shut down.
-2018-12-19 16:21:00.7790 Info Message Template Auto Format enabled
-2018-12-19 16:21:00.7912 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:21:00.8459 Info Adding target File Target[allfile]
-2018-12-19 16:21:00.8477 Info Adding target File Target[ownFile-web]
-2018-12-19 16:21:00.8562 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:21:00.8788 Info Found 45 configuration items
-2018-12-19 16:21:00.9751 Info Configuration initialized.
-2018-12-19 16:21:00.9995 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:21:02.3860 Info Shutting down logging...
-2018-12-19 16:21:02.4046 Info Logger has been shut down.
-2018-12-19 16:22:10.3201 Info Message Template Auto Format enabled
-2018-12-19 16:22:10.3319 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:22:10.3862 Info Adding target File Target[allfile]
-2018-12-19 16:22:10.3885 Info Adding target File Target[ownFile-web]
-2018-12-19 16:22:10.3968 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:22:10.4143 Info Found 45 configuration items
-2018-12-19 16:22:10.5158 Info Configuration initialized.
-2018-12-19 16:22:10.5406 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:22:11.8182 Info Shutting down logging...
-2018-12-19 16:22:11.8324 Info Logger has been shut down.
-2018-12-19 16:22:44.8375 Info Message Template Auto Format enabled
-2018-12-19 16:22:44.8496 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:22:44.8998 Info Adding target File Target[allfile]
-2018-12-19 16:22:44.9014 Info Adding target File Target[ownFile-web]
-2018-12-19 16:22:44.9079 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:22:44.9244 Info Found 45 configuration items
-2018-12-19 16:22:45.0231 Info Configuration initialized.
-2018-12-19 16:22:45.0393 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:22:46.3927 Info Shutting down logging...
-2018-12-19 16:22:46.4081 Info Logger has been shut down.
-2018-12-19 16:23:08.1796 Info Message Template Auto Format enabled
-2018-12-19 16:23:08.1911 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:23:08.2398 Info Adding target File Target[allfile]
-2018-12-19 16:23:08.2416 Info Adding target File Target[ownFile-web]
-2018-12-19 16:23:08.2550 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:23:08.2730 Info Found 45 configuration items
-2018-12-19 16:23:08.3644 Info Configuration initialized.
-2018-12-19 16:23:08.3813 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:23:09.5732 Info Shutting down logging...
-2018-12-19 16:23:09.5873 Info Logger has been shut down.
-2018-12-19 16:25:07.2256 Info Message Template Auto Format enabled
-2018-12-19 16:25:07.2374 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:25:07.2905 Info Adding target File Target[allfile]
-2018-12-19 16:25:07.2923 Info Adding target File Target[ownFile-web]
-2018-12-19 16:25:07.2998 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:25:07.3149 Info Found 45 configuration items
-2018-12-19 16:25:07.4067 Info Configuration initialized.
-2018-12-19 16:25:07.4218 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:25:08.6701 Info Shutting down logging...
-2018-12-19 16:25:08.6828 Info Logger has been shut down.
-2018-12-19 16:30:35.0718 Info Message Template Auto Format enabled
-2018-12-19 16:30:35.0838 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:30:35.1372 Info Adding target File Target[allfile]
-2018-12-19 16:30:35.1389 Info Adding target File Target[ownFile-web]
-2018-12-19 16:30:35.1461 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:30:35.1618 Info Found 45 configuration items
-2018-12-19 16:30:35.2759 Info Configuration initialized.
-2018-12-19 16:30:35.3005 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:30:36.8558 Info Shutting down logging...
-2018-12-19 16:30:36.8732 Info Logger has been shut down.
-2018-12-19 16:30:47.0335 Info Message Template Auto Format enabled
-2018-12-19 16:30:47.0494 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:30:47.1062 Info Adding target File Target[allfile]
-2018-12-19 16:30:47.1080 Info Adding target File Target[ownFile-web]
-2018-12-19 16:30:47.1148 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:30:47.1337 Info Found 45 configuration items
-2018-12-19 16:30:47.2446 Info Configuration initialized.
-2018-12-19 16:30:47.2607 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:30:48.7303 Info Shutting down logging...
-2018-12-19 16:30:48.7454 Info Logger has been shut down.
-2018-12-19 16:32:55.0211 Info Message Template Auto Format enabled
-2018-12-19 16:32:55.0375 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:32:55.0989 Info Adding target File Target[allfile]
-2018-12-19 16:32:55.1017 Info Adding target File Target[ownFile-web]
-2018-12-19 16:32:55.1103 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:32:55.1316 Info Found 45 configuration items
-2018-12-19 16:32:55.2605 Info Configuration initialized.
-2018-12-19 16:32:55.2825 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:32:56.7987 Info Shutting down logging...
-2018-12-19 16:32:56.8140 Info Logger has been shut down.
-2018-12-19 16:34:16.5729 Info Message Template Auto Format enabled
-2018-12-19 16:34:16.5846 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:34:16.6375 Info Adding target File Target[allfile]
-2018-12-19 16:34:16.6392 Info Adding target File Target[ownFile-web]
-2018-12-19 16:34:16.6464 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:34:16.6615 Info Found 45 configuration items
-2018-12-19 16:34:16.7610 Info Configuration initialized.
-2018-12-19 16:34:16.7777 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:34:18.0749 Info Shutting down logging...
-2018-12-19 16:34:18.0883 Info Logger has been shut down.
-2018-12-19 16:34:53.3489 Info Message Template Auto Format enabled
-2018-12-19 16:34:53.3637 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:34:53.4191 Info Adding target File Target[allfile]
-2018-12-19 16:34:53.4207 Info Adding target File Target[ownFile-web]
-2018-12-19 16:34:53.4274 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:34:53.4427 Info Found 45 configuration items
-2018-12-19 16:34:53.5449 Info Configuration initialized.
-2018-12-19 16:34:53.5685 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:34:54.8669 Info Shutting down logging...
-2018-12-19 16:34:54.8833 Info Logger has been shut down.
-2018-12-19 16:38:36.8440 Info Message Template Auto Format enabled
-2018-12-19 16:38:36.8568 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:38:36.9074 Info Adding target File Target[allfile]
-2018-12-19 16:38:36.9094 Info Adding target File Target[ownFile-web]
-2018-12-19 16:38:36.9172 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:38:36.9331 Info Found 45 configuration items
-2018-12-19 16:38:37.0357 Info Configuration initialized.
-2018-12-19 16:38:37.0544 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:38:38.3062 Info Shutting down logging...
-2018-12-19 16:38:38.3232 Info Logger has been shut down.
-2018-12-19 16:38:48.6852 Info Message Template Auto Format enabled
-2018-12-19 16:38:48.6997 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:38:48.7554 Info Adding target File Target[allfile]
-2018-12-19 16:38:48.7579 Info Adding target File Target[ownFile-web]
-2018-12-19 16:38:48.7684 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:38:48.7904 Info Found 45 configuration items
-2018-12-19 16:38:48.8893 Info Configuration initialized.
-2018-12-19 16:38:48.9074 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:38:50.1947 Info Shutting down logging...
-2018-12-19 16:38:50.2092 Info Logger has been shut down.
-2018-12-19 16:39:51.6536 Info Message Template Auto Format enabled
-2018-12-19 16:39:51.6667 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:39:51.7198 Info Adding target File Target[allfile]
-2018-12-19 16:39:51.7215 Info Adding target File Target[ownFile-web]
-2018-12-19 16:39:51.7289 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:39:51.7443 Info Found 45 configuration items
-2018-12-19 16:39:51.8411 Info Configuration initialized.
-2018-12-19 16:39:51.8628 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:39:52.9109 Info Shutting down logging...
-2018-12-19 16:39:52.9279 Info Logger has been shut down.
-2018-12-19 16:40:37.1743 Info Message Template Auto Format enabled
-2018-12-19 16:40:37.1863 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:40:37.2344 Info Adding target File Target[allfile]
-2018-12-19 16:40:37.2361 Info Adding target File Target[ownFile-web]
-2018-12-19 16:40:37.2427 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:40:37.2645 Info Found 45 configuration items
-2018-12-19 16:40:37.3591 Info Configuration initialized.
-2018-12-19 16:40:37.3747 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:40:38.4124 Info Shutting down logging...
-2018-12-19 16:40:38.4319 Info Logger has been shut down.
-2018-12-19 16:42:28.4503 Info Message Template Auto Format enabled
-2018-12-19 16:42:28.4638 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:42:28.5124 Info Adding target File Target[allfile]
-2018-12-19 16:42:28.5142 Info Adding target File Target[ownFile-web]
-2018-12-19 16:42:28.5208 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:42:28.5361 Info Found 45 configuration items
-2018-12-19 16:42:28.6520 Info Configuration initialized.
-2018-12-19 16:42:28.6688 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:42:29.9886 Info Shutting down logging...
-2018-12-19 16:42:30.0038 Info Logger has been shut down.
-2018-12-19 16:42:50.5429 Info Message Template Auto Format enabled
-2018-12-19 16:42:50.5578 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:42:50.6070 Info Adding target File Target[allfile]
-2018-12-19 16:42:50.6088 Info Adding target File Target[ownFile-web]
-2018-12-19 16:42:50.6168 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:42:50.6347 Info Found 45 configuration items
-2018-12-19 16:42:50.7234 Info Configuration initialized.
-2018-12-19 16:42:50.7397 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:42:52.3464 Info Shutting down logging...
-2018-12-19 16:42:52.3605 Info Logger has been shut down.
-2018-12-19 16:44:07.0032 Info Message Template Auto Format enabled
-2018-12-19 16:44:07.0154 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:44:07.0745 Info Adding target File Target[allfile]
-2018-12-19 16:44:07.0772 Info Adding target File Target[ownFile-web]
-2018-12-19 16:44:07.0864 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:44:07.1030 Info Found 45 configuration items
-2018-12-19 16:44:07.2083 Info Configuration initialized.
-2018-12-19 16:44:07.2219 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:44:08.6893 Info Shutting down logging...
-2018-12-19 16:44:08.7050 Info Logger has been shut down.
-2018-12-19 16:44:28.0342 Info Message Template Auto Format enabled
-2018-12-19 16:44:28.0461 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:44:28.0971 Info Adding target File Target[allfile]
-2018-12-19 16:44:28.0988 Info Adding target File Target[ownFile-web]
-2018-12-19 16:44:28.1099 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/NLog.config...
-2018-12-19 16:44:28.1370 Info Found 45 configuration items
-2018-12-19 16:44:28.2510 Info Configuration initialized.
-2018-12-19 16:44:28.2645 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.11.8645. Product version: 4.5.11.
-2018-12-19 16:44:29.5009 Info Shutting down logging...
-2018-12-19 16:44:29.5208 Info Logger has been shut down.
-2018-12-19 16:44:56.6319 Info Message Template Auto Format enabled
-2018-12-19 16:44:56.6475 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-19 16:44:56.6975 Info Adding target File Target[allfile]
-2018-12-19 16:44:56.6998 Info Adding target File Target[ownFile-web]
-2018-12-19 16:44:56.7087 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
-2018-12-19 16:44:56.7319 Info Found 45 configuration items
-2018-12-19 16:47:17.9725 Info Logger closing down...
-2018-12-19 16:47:17.9740 Info Closing old configuration.
-2018-12-19 16:47:17.9849 Info Logger has been closed down.
-2018-12-19 16:47:17.9861 Info Shutting down logging...
-2018-12-19 16:47:17.9878 Info Logger has been shut down.
-2018-12-27 17:44:38.2849 Info Message Template Auto Format enabled
-2018-12-27 17:44:38.3090 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-27 17:44:38.4649 Info Adding target File Target[allfile]
-2018-12-27 17:44:38.4832 Info Adding target File Target[ownFile-web]
-2018-12-27 17:44:38.5005 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
-2018-12-27 17:44:38.5414 Info Found 45 configuration items
-2018-12-27 17:48:51.9194 Info Message Template Auto Format enabled
-2018-12-27 17:48:51.9194 Info Loading assembly: NLog.Web.AspNetCore
-2018-12-27 17:48:51.9814 Info Adding target File Target[allfile]
-2018-12-27 17:48:51.9885 Info Adding target File Target[ownFile-web]
-2018-12-27 17:48:51.9885 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
-2018-12-27 17:48:52.0068 Info Found 45 configuration items
-2019-01-05 10:50:07.4292 Info Message Template Auto Format enabled
-2019-01-05 10:50:07.4615 Info Loading assembly: NLog.Web.AspNetCore
-2019-01-05 10:50:07.6884 Info Adding target File Target[allfile]
-2019-01-05 10:50:07.8227 Info Adding target File Target[ownFile-web]
-2019-01-05 10:50:07.8522 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
-2019-01-05 10:50:07.9414 Info Found 45 configuration items
+2019-01-05 11:37:02.5096 Info Logger closing down...
+2019-01-05 11:37:02.5116 Info Closing old configuration.
+2019-01-05 11:37:02.5217 Info Logger has been closed down.
+2019-01-05 11:37:02.5230 Info Shutting down logging...
+2019-01-05 11:37:02.5253 Info Logger has been shut down.
+2019-01-05 11:37:18.1932 Info Message Template Auto Format enabled
+2019-01-05 11:37:18.2127 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:37:18.2927 Info Adding target File Target[allfile]
+2019-01-05 11:37:18.2949 Info Adding target File Target[ownFile-web]
+2019-01-05 11:37:18.3052 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:37:18.3488 Info Found 45 configuration items
+2019-01-05 11:38:18.9124 Info Logger closing down...
+2019-01-05 11:38:18.9143 Info Closing old configuration.
+2019-01-05 11:38:18.9236 Info Logger has been closed down.
+2019-01-05 11:38:18.9250 Info Shutting down logging...
+2019-01-05 11:38:18.9269 Info Logger has been shut down.
+2019-01-05 11:38:33.8259 Info Message Template Auto Format enabled
+2019-01-05 11:38:33.9070 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:38:34.2027 Info Adding target File Target[allfile]
+2019-01-05 11:38:34.2213 Info Adding target File Target[ownFile-web]
+2019-01-05 11:38:34.2514 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:38:34.3876 Info Found 45 configuration items
+2019-01-05 11:43:05.4042 Info Logger closing down...
+2019-01-05 11:43:05.4069 Info Closing old configuration.
+2019-01-05 11:43:05.4168 Info Logger has been closed down.
+2019-01-05 11:43:05.4180 Info Shutting down logging...
+2019-01-05 11:43:05.4199 Info Logger has been shut down.
+2019-01-05 11:43:17.5942 Info Message Template Auto Format enabled
+2019-01-05 11:43:17.6176 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:43:17.6766 Info Adding target File Target[allfile]
+2019-01-05 11:43:17.6897 Info Adding target File Target[ownFile-web]
+2019-01-05 11:43:17.7051 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:43:17.7233 Info Found 45 configuration items
+2019-01-05 11:44:31.7552 Info Logger closing down...
+2019-01-05 11:44:31.7579 Info Closing old configuration.
+2019-01-05 11:44:31.7725 Info Logger has been closed down.
+2019-01-05 11:44:31.7748 Info Shutting down logging...
+2019-01-05 11:44:31.7773 Info Logger has been shut down.
+2019-01-05 11:44:44.7807 Info Message Template Auto Format enabled
+2019-01-05 11:44:44.7976 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:44:44.8616 Info Adding target File Target[allfile]
+2019-01-05 11:44:44.8642 Info Adding target File Target[ownFile-web]
+2019-01-05 11:44:44.8735 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:44:44.8934 Info Found 45 configuration items
+2019-01-05 11:45:48.6607 Info Logger closing down...
+2019-01-05 11:45:48.6636 Info Closing old configuration.
+2019-01-05 11:45:48.6719 Info Logger has been closed down.
+2019-01-05 11:45:48.6730 Info Shutting down logging...
+2019-01-05 11:45:48.6745 Info Logger has been shut down.
+2019-01-05 11:46:02.9584 Info Message Template Auto Format enabled
+2019-01-05 11:46:03.1004 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:46:03.1893 Info Adding target File Target[allfile]
+2019-01-05 11:46:03.2152 Info Adding target File Target[ownFile-web]
+2019-01-05 11:46:03.2336 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:46:03.2953 Info Found 45 configuration items
+2019-01-05 11:46:50.1719 Info Logger closing down...
+2019-01-05 11:46:50.1747 Info Closing old configuration.
+2019-01-05 11:46:50.1829 Info Logger has been closed down.
+2019-01-05 11:46:50.1842 Info Shutting down logging...
+2019-01-05 11:46:50.1860 Info Logger has been shut down.
+2019-01-05 11:47:01.3075 Info Message Template Auto Format enabled
+2019-01-05 11:47:01.3303 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:47:01.3918 Info Adding target File Target[allfile]
+2019-01-05 11:47:01.3962 Info Adding target File Target[ownFile-web]
+2019-01-05 11:47:01.4052 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:47:01.4265 Info Found 45 configuration items
+2019-01-05 11:47:41.2507 Info Logger closing down...
+2019-01-05 11:47:41.2530 Info Closing old configuration.
+2019-01-05 11:47:41.2673 Info Logger has been closed down.
+2019-01-05 11:47:41.2688 Info Shutting down logging...
+2019-01-05 11:47:41.2713 Info Logger has been shut down.
+2019-01-05 11:47:52.9719 Info Message Template Auto Format enabled
+2019-01-05 11:47:53.0262 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:47:53.1170 Info Adding target File Target[allfile]
+2019-01-05 11:47:53.1322 Info Adding target File Target[ownFile-web]
+2019-01-05 11:47:53.1432 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:47:53.1637 Info Found 45 configuration items
+2019-01-05 11:49:16.5850 Info Logger closing down...
+2019-01-05 11:49:16.5881 Info Closing old configuration.
+2019-01-05 11:49:16.6011 Info Logger has been closed down.
+2019-01-05 11:49:16.6021 Info Shutting down logging...
+2019-01-05 11:49:16.6036 Info Logger has been shut down.
+2019-01-05 11:49:28.1674 Info Message Template Auto Format enabled
+2019-01-05 11:49:28.1833 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:49:28.2340 Info Adding target File Target[allfile]
+2019-01-05 11:49:28.2366 Info Adding target File Target[ownFile-web]
+2019-01-05 11:49:28.2449 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:49:28.2667 Info Found 45 configuration items
+2019-01-05 11:54:04.6692 Info Logger closing down...
+2019-01-05 11:54:04.6717 Info Closing old configuration.
+2019-01-05 11:54:04.6837 Info Logger has been closed down.
+2019-01-05 11:54:04.6866 Info Shutting down logging...
+2019-01-05 11:54:04.6883 Info Logger has been shut down.
+2019-01-05 11:54:20.9047 Info Message Template Auto Format enabled
+2019-01-05 11:54:20.9325 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:54:21.0435 Info Adding target File Target[allfile]
+2019-01-05 11:54:21.0545 Info Adding target File Target[ownFile-web]
+2019-01-05 11:54:21.0709 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:54:21.0949 Info Found 45 configuration items
+2019-01-05 11:54:49.7342 Info Logger closing down...
+2019-01-05 11:54:49.7371 Info Closing old configuration.
+2019-01-05 11:54:49.7485 Info Logger has been closed down.
+2019-01-05 11:54:49.7498 Info Shutting down logging...
+2019-01-05 11:54:49.7512 Info Logger has been shut down.
+2019-01-05 11:55:08.7091 Info Message Template Auto Format enabled
+2019-01-05 11:55:08.7352 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:55:08.8586 Info Adding target File Target[allfile]
+2019-01-05 11:55:08.8632 Info Adding target File Target[ownFile-web]
+2019-01-05 11:55:08.8915 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:55:08.9291 Info Found 45 configuration items
+2019-01-05 11:55:46.4840 Info Logger closing down...
+2019-01-05 11:55:46.4863 Info Closing old configuration.
+2019-01-05 11:55:46.4994 Info Logger has been closed down.
+2019-01-05 11:55:46.5007 Info Shutting down logging...
+2019-01-05 11:55:46.5026 Info Logger has been shut down.
+2019-01-05 11:55:58.3377 Info Message Template Auto Format enabled
+2019-01-05 11:55:58.3611 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:55:58.4259 Info Adding target File Target[allfile]
+2019-01-05 11:55:58.4282 Info Adding target File Target[ownFile-web]
+2019-01-05 11:55:58.4453 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:55:58.4649 Info Found 45 configuration items
+2019-01-05 11:56:23.9006 Info Logger closing down...
+2019-01-05 11:56:23.9021 Info Closing old configuration.
+2019-01-05 11:56:23.9127 Info Logger has been closed down.
+2019-01-05 11:56:23.9137 Info Shutting down logging...
+2019-01-05 11:56:23.9160 Info Logger has been shut down.
+2019-01-05 11:56:35.7679 Info Message Template Auto Format enabled
+2019-01-05 11:56:35.7931 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:56:35.8859 Info Adding target File Target[allfile]
+2019-01-05 11:56:35.8885 Info Adding target File Target[ownFile-web]
+2019-01-05 11:56:35.9036 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:56:35.9685 Info Found 45 configuration items
+2019-01-05 11:58:34.1884 Info Logger closing down...
+2019-01-05 11:58:34.1914 Info Closing old configuration.
+2019-01-05 11:58:34.2026 Info Logger has been closed down.
+2019-01-05 11:58:34.2041 Info Shutting down logging...
+2019-01-05 11:58:34.2070 Info Logger has been shut down.
+2019-01-05 11:58:46.5991 Info Message Template Auto Format enabled
+2019-01-05 11:58:46.6215 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 11:58:46.7267 Info Adding target File Target[allfile]
+2019-01-05 11:58:46.7400 Info Adding target File Target[ownFile-web]
+2019-01-05 11:58:46.7560 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 11:58:46.7976 Info Found 45 configuration items
+2019-01-05 11:59:46.5539 Info Logger closing down...
+2019-01-05 11:59:46.5553 Info Closing old configuration.
+2019-01-05 11:59:46.5691 Info Logger has been closed down.
+2019-01-05 11:59:46.5705 Info Shutting down logging...
+2019-01-05 11:59:46.5734 Info Logger has been shut down.
+2019-01-05 12:00:01.3774 Info Message Template Auto Format enabled
+2019-01-05 12:00:01.4027 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:00:01.5554 Info Adding target File Target[allfile]
+2019-01-05 12:00:01.5663 Info Adding target File Target[ownFile-web]
+2019-01-05 12:00:01.5764 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 12:00:01.6021 Info Found 45 configuration items
+2019-01-05 12:00:52.3483 Info Logger closing down...
+2019-01-05 12:00:52.3504 Info Closing old configuration.
+2019-01-05 12:00:52.3664 Info Logger has been closed down.
+2019-01-05 12:00:52.3678 Info Shutting down logging...
+2019-01-05 12:00:52.3697 Info Logger has been shut down.
+2019-01-05 12:01:04.6059 Info Message Template Auto Format enabled
+2019-01-05 12:01:04.6261 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:01:04.7215 Info Adding target File Target[allfile]
+2019-01-05 12:01:04.7400 Info Adding target File Target[ownFile-web]
+2019-01-05 12:01:04.7598 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 12:01:04.8109 Info Found 45 configuration items
+2019-01-05 12:04:06.1912 Info Logger closing down...
+2019-01-05 12:04:06.1945 Info Closing old configuration.
+2019-01-05 12:04:06.2053 Info Logger has been closed down.
+2019-01-05 12:04:06.2065 Info Shutting down logging...
+2019-01-05 12:04:06.2083 Info Logger has been shut down.
+2019-01-05 12:04:17.8711 Info Message Template Auto Format enabled
+2019-01-05 12:04:17.8955 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:04:17.9566 Info Adding target File Target[allfile]
+2019-01-05 12:04:17.9703 Info Adding target File Target[ownFile-web]
+2019-01-05 12:04:17.9826 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 12:04:18.0067 Info Found 45 configuration items
+2019-01-05 12:06:05.5967 Info Logger closing down...
+2019-01-05 12:06:05.5999 Info Closing old configuration.
+2019-01-05 12:06:05.6554 Info Logger has been closed down.
+2019-01-05 12:06:05.6572 Info Shutting down logging...
+2019-01-05 12:06:05.6597 Info Logger has been shut down.
+2019-01-05 12:06:17.7176 Info Message Template Auto Format enabled
+2019-01-05 12:06:17.7363 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:06:17.8178 Info Adding target File Target[allfile]
+2019-01-05 12:06:17.8222 Info Adding target File Target[ownFile-web]
+2019-01-05 12:06:17.8351 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 12:06:17.8547 Info Found 45 configuration items
+2019-01-05 12:06:56.7071 Info Logger closing down...
+2019-01-05 12:06:56.7089 Info Closing old configuration.
+2019-01-05 12:06:56.7221 Info Logger has been closed down.
+2019-01-05 12:06:56.7236 Info Shutting down logging...
+2019-01-05 12:06:56.7267 Info Logger has been shut down.
+2019-01-05 12:07:07.8454 Info Message Template Auto Format enabled
+2019-01-05 12:07:07.8630 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:07:07.9278 Info Adding target File Target[allfile]
+2019-01-05 12:07:07.9314 Info Adding target File Target[ownFile-web]
+2019-01-05 12:07:07.9400 Info Configured from an XML element in /Users/sara/Documents/Asp/blog/blogEngine/bin/Debug/netcoreapp2.1/nlog.config...
+2019-01-05 12:07:07.9697 Info Found 45 configuration items
+2019-01-05 12:08:15.1720 Info Logger closing down...
+2019-01-05 12:08:15.1748 Info Closing old configuration.
+2019-01-05 12:08:15.1877 Info Logger has been closed down.
+2019-01-05 12:08:15.1902 Info Shutting down logging...
+2019-01-05 12:08:15.1918 Info Logger has been shut down.

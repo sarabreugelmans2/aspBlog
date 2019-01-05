@@ -79,10 +79,10 @@ namespace blogEngine.Controllers
         }
         public Author GetAuthorModel( int AuthorId)
         {
-            var Author = _bloggingContext.Author.Find(AuthorId);
+            var author = _bloggingContext.Author.Find(AuthorId);
             Author aModel = new Author() {
                 Id = AuthorId,
-                Name=Author.Name
+                Name=author.Name
             };
             return aModel;
         }
@@ -103,18 +103,29 @@ namespace blogEngine.Controllers
         }
         
     [HttpPost]
-    public IActionResult CreatePost(BlogPost model)
-            {
-            var blog = new BlogPost {
-                Title=model.Title,
-                Author_id=model.Author_id,
-                Content=model.Content,
-                CreatedAt= DateTime.Now };
-            _bloggingContext.Blogs.Add(blog);
-            _bloggingContext.SaveChanges();
-            return RedirectToAction("Index","Blog");
+    public IActionResult Create(BlogPost model)
+        {
+             if (ModelState.IsValid){
+                var blog = new BlogPost {
+                    Title=model.Title,
+                    Author_id=model.Author_id,
+                    Content=model.Content,
+                    CreatedAt= DateTime.Now };
+                _bloggingContext.Blogs.Add(blog);
+                _bloggingContext.SaveChanges();
                 
-            } 
+                return RedirectToAction("Index","Blog");
+             }
+            
+           var author = _bloggingContext.Author.ToList();
+            AuthorList authorList = new AuthorList();
+            authorList.Authors = author;
+             BlogCommentViewModel blogAuthorView = new BlogCommentViewModel();
+            blogAuthorView.AuthorList = authorList;
+            blogAuthorView.Blog = model;
+            
+            return View(blogAuthorView);
+        } 
         public IActionResult Create()
         {
             var author = _bloggingContext.Author.ToList();
@@ -131,8 +142,9 @@ namespace blogEngine.Controllers
                 
         }    
         
-        [HttpGet("Blog/Detele/{blogId}")]
-        public IActionResult Delete([FromRoute]int blogId)
+       
+        [HttpDelete]
+        public IActionResult Delete(int blogId)
         {
             _bloggingContext.Remove(_bloggingContext.Blogs.Find(blogId));
             _bloggingContext.SaveChanges();
