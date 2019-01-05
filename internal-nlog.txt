@@ -201,3 +201,57 @@
 2019-01-05 12:08:15.1877 Info Logger has been closed down.
 2019-01-05 12:08:15.1902 Info Shutting down logging...
 2019-01-05 12:08:15.1918 Info Logger has been shut down.
+2019-01-05 12:10:07.5567 Info Message Template Auto Format enabled
+2019-01-05 12:10:07.5666 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:10:07.6201 Info Adding target File Target[allfile]
+2019-01-05 12:10:07.6266 Info Adding target File Target[ownFile-web]
+2019-01-05 12:10:07.6266 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:10:07.6453 Info Found 45 configuration items
+2019-01-05 12:17:19.4145 Info Message Template Auto Format enabled
+2019-01-05 12:17:19.4145 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:17:19.4736 Info Adding target File Target[allfile]
+2019-01-05 12:17:19.4736 Info Adding target File Target[ownFile-web]
+2019-01-05 12:17:19.4872 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:17:19.4997 Info Found 45 configuration items
+2019-01-05 12:19:04.7002 Info Message Template Auto Format enabled
+2019-01-05 12:19:04.7002 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:19:04.7589 Info Adding target File Target[allfile]
+2019-01-05 12:19:04.7657 Info Adding target File Target[ownFile-web]
+2019-01-05 12:19:04.7657 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:19:04.7837 Info Found 45 configuration items
+2019-01-05 12:22:20.0128 Info Message Template Auto Format enabled
+2019-01-05 12:22:20.0203 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:22:20.0706 Info Adding target File Target[allfile]
+2019-01-05 12:22:20.0776 Info Adding target File Target[ownFile-web]
+2019-01-05 12:22:20.0776 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:22:20.0971 Info Found 45 configuration items
+2019-01-05 12:24:22.8160 Info Message Template Auto Format enabled
+2019-01-05 12:24:22.8232 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:24:22.8747 Info Adding target File Target[allfile]
+2019-01-05 12:24:22.8747 Info Adding target File Target[ownFile-web]
+2019-01-05 12:24:22.8747 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:24:22.9005 Info Found 45 configuration items
+2019-01-05 12:27:04.2434 Info Message Template Auto Format enabled
+2019-01-05 12:27:04.2508 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:27:04.3013 Info Adding target File Target[allfile]
+2019-01-05 12:27:04.3013 Info Adding target File Target[ownFile-web]
+2019-01-05 12:27:04.3147 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:27:04.3147 Info Found 45 configuration items
+2019-01-05 12:28:56.8234 Info Message Template Auto Format enabled
+2019-01-05 12:28:56.8309 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:28:56.8817 Info Adding target File Target[allfile]
+2019-01-05 12:28:56.8817 Info Adding target File Target[ownFile-web]
+2019-01-05 12:28:56.8947 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:28:56.9071 Info Found 45 configuration items
+2019-01-05 12:29:43.4630 Info Message Template Auto Format enabled
+2019-01-05 12:29:43.4709 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:29:43.5234 Info Adding target File Target[allfile]
+2019-01-05 12:29:43.5303 Info Adding target File Target[ownFile-web]
+2019-01-05 12:29:43.5303 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:29:43.5490 Info Found 45 configuration items
+2019-01-05 12:30:22.7118 Info Message Template Auto Format enabled
+2019-01-05 12:30:22.7191 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-05 12:30:22.7701 Info Adding target File Target[allfile]
+2019-01-05 12:30:22.7701 Info Adding target File Target[ownFile-web]
+2019-01-05 12:30:22.7834 Info Configured from an XML element in C:\Users\kobec\Documents\Hoge school\ASP dotnet\aspBlog\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-05 12:30:22.7957 Info Found 45 configuration items

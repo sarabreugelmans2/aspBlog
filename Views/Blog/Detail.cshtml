@@ -22,7 +22,10 @@
         <td> @Model.Blog.Content</td>
         <td> @Model.Blog.CreatedAt</td>
         <td><a asp-action="Edit"> Edit </a></td>
-        <td><button asp-action="Delete" asp-route-id="@Model.Blog.Id"> Delete </button></td>
+        <td><form asp-controller="Blog" asp-action="Delete">
+                <button type="submit" onclick="return confirm('Are you sure?')"> Delete </button>
+            </form>
+        </td>
   
     </tr>
 </table>

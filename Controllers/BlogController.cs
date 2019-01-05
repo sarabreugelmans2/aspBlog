@@ -143,8 +143,8 @@ namespace blogEngine.Controllers
         }    
         
        
-        [HttpDelete]
-        public IActionResult Delete(int blogId)
+        [HttpPost("Blog/Detail/{blogId}")]
+        public IActionResult Delete([FromRoute]int blogId)
         {
             _bloggingContext.Remove(_bloggingContext.Blogs.Find(blogId));
             _bloggingContext.SaveChanges();
