@@ -27,15 +27,10 @@ namespace blogEngine.Controllers
     [HttpGet("Blog/Edit/{blogId}")]
         public IActionResult Edit([FromRoute]int blogId)
         {
-            var blog = _bloggingContext.Blogs.Find(blogId);
+            BlogPost blog = new BlogPost();
+            blog = _bloggingContext.Blogs.Find(blogId);
             // _personContext.Remove(_personContext.Persons.Find(id));
-            return View(new BlogPost()
-            {
-                Id = blogId,
-                Title=blog.Title,
-                Content=blog.Content,
-                CreatedAt= blog.CreatedAt
-            });
+            return View(blog);
         }
     
 
@@ -60,15 +55,10 @@ namespace blogEngine.Controllers
      
        public BlogPost GetBlogPost( int blogId)
         {
-            var blog = _bloggingContext.Blogs.Find(blogId);
-           BlogPost bModel = new BlogPost() {
-                Id = blogId,
-                Title=blog.Title,
-                Author_id=blog.Author_id,
-                Content=blog.Content,
-                CreatedAt= blog.CreatedAt
-            };
-            return bModel;
+            BlogPost blog = new BlogPost();
+            blog =_bloggingContext.Blogs.Find(blogId);
+           
+            return blog;
         }
          public CommentList GetCommentModel(int blogId)
         {
@@ -79,12 +69,10 @@ namespace blogEngine.Controllers
         }
         public Author GetAuthorModel( int AuthorId)
         {
-            var author = _bloggingContext.Author.Find(AuthorId);
-            Author aModel = new Author() {
-                Id = AuthorId,
-                Name=author.Name
-            };
-            return aModel;
+            Author author = new Author();
+            author = _bloggingContext.Author.Find(AuthorId);
+            
+            return author;
         }
        
     

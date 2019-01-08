@@ -20,3 +20,27 @@
 2019-01-08 18:02:45.2161 Info Logger has been closed down.
 2019-01-08 18:02:45.2161 Info Shutting down logging...
 2019-01-08 18:02:45.2185 Info Logger has been shut down.
+2019-01-08 22:45:56.8269 Info Message Template Auto Format enabled
+2019-01-08 22:45:56.8332 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-08 22:45:56.8684 Info Adding target File Target[allfile]
+2019-01-08 22:45:56.8684 Info Adding target File Target[ownFile-web]
+2019-01-08 22:45:56.8684 Info Configured from an XML element in D:\Documenten\Hoge School\asp.kaka\blogEngine\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-08 22:45:56.8905 Info Found 45 configuration items
+2019-01-08 22:47:12.7434 Info Message Template Auto Format enabled
+2019-01-08 22:47:12.7434 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-08 22:47:12.7840 Info Adding target File Target[allfile]
+2019-01-08 22:47:12.7840 Info Adding target File Target[ownFile-web]
+2019-01-08 22:47:12.7840 Info Configured from an XML element in D:\Documenten\Hoge School\asp.kaka\blogEngine\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-08 22:47:12.8025 Info Found 45 configuration items
+2019-01-08 22:47:55.5895 Info Message Template Auto Format enabled
+2019-01-08 22:47:55.5968 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-08 22:47:55.6325 Info Adding target File Target[allfile]
+2019-01-08 22:47:55.6325 Info Adding target File Target[ownFile-web]
+2019-01-08 22:47:55.6325 Info Configured from an XML element in D:\Documenten\Hoge School\asp.kaka\blogEngine\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-08 22:47:55.6551 Info Found 45 configuration items
+2019-01-08 22:49:36.3389 Info Message Template Auto Format enabled
+2019-01-08 22:49:36.3389 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-08 22:49:36.3784 Info Adding target File Target[allfile]
+2019-01-08 22:49:36.3784 Info Adding target File Target[ownFile-web]
+2019-01-08 22:49:36.3784 Info Configured from an XML element in D:\Documenten\Hoge School\asp.kaka\blogEngine\bin\Debug\netcoreapp2.1\nlog.config...
+2019-01-08 22:49:36.3975 Info Found 45 configuration items
