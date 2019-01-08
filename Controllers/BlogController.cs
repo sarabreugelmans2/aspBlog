@@ -90,6 +90,7 @@ namespace blogEngine.Controllers
     
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult EditPost(BlogPost model)
         {
             
@@ -103,6 +104,7 @@ namespace blogEngine.Controllers
         }
         
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public IActionResult Create(BlogPost model)
         {
              if (ModelState.IsValid){
@@ -144,6 +146,7 @@ namespace blogEngine.Controllers
         
        
         [HttpPost("Blog/Detail/{blogId}")]
+        [ValidateAntiForgeryToken]
         public IActionResult Delete([FromRoute]int blogId)
         {
             _bloggingContext.Remove(_bloggingContext.Blogs.Find(blogId));
@@ -152,6 +155,7 @@ namespace blogEngine.Controllers
         }
 
          [HttpPost]
+         [ValidateAntiForgeryToken]
           public IActionResult CreateComment(Comment model)
             {
 
